@@ -1,0 +1,298 @@
+@import url('https://fonts.googleapis.com/css2?family=Krona+One&family=Mrs+Saint+Delafield&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Krona One', sans-serif;
+    font-family: 'Mrs Saint Delafield', cursive;
+    font-family: 'Poppins', sans-serif;
+}
+
+:root {
+    --main_color-primary: rgba(49, 167, 22, 0.9);
+    --main_color-secundary: rgb(255, 132, 0);
+}
+
+body {
+    max-width: 2600px;
+}
+
+header {
+    width: 100%;
+    height: 73px;
+    position: fixed;
+    background-color: #fff;
+}
+
+.container__header {
+    max-width: 1200px;
+    height: 100%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+/* LOGO */
+.logo {
+    display: flex;
+    position: relative;
+    z-index: 1;
+}
+
+.logo img {
+    width: 250px;
+}
+
+.logo img:hover {
+    transform: scale(1.2);
+    transition: all 0.8s;
+}
+
+/* MENU */
+
+.menu nav {
+    margin: 0 20px;
+}
+
+.menu nav ul {
+    display: flex;
+    list-style: none;
+    height: 63px;
+}
+
+.menu nav ul li {
+    margin: 22.5px 16px;
+}
+
+.menu nav ul li a {
+    text-decoration: none;
+    color: var(--main_color-primary);
+    font-size: 16px;
+    font-weight: 700;
+}
+
+.menu nav ul li a:hover {
+    color: var(--main_color-secundary);
+    /*   transform: scale(1.2); */
+    transition: all 0.3s;
+}
+
+.btn-login {
+    border: 2px solid var(--main_color-primary);
+    border-radius: 8px;
+    padding: 8px 20px;
+}
+
+.btn-login:hover {
+    border: 2px solid var(--main_color-secundary);
+}
+
+/*MENU HAMBURGESA ANIMADO*/
+.bars__menu {
+    width: 30px;
+    height: 30px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    cursor: pointer;
+}
+
+.bars__menu span {
+    display: block;
+    width: 100%;
+    height: 2px;
+    background: var(--main_color-secundary);
+    margin-top: 6px;
+    transform-origin: 0px 100%;
+    transition: 600ms;
+}
+
+.activeline1__bars-menu {
+    transform: rotate(45deg) translate(-2px, 1px);
+}
+
+.activeline2__bars-menu {
+    opacity: 0;
+    margin-left: -30px;
+}
+
+.activeline3__bars-menu {
+    transform: rotate(-45deg) translate(-4px, 2px);
+}
+
+/*BANNER INDEX*/
+
+.contenedor-banner {
+    width: auto;
+    max-height: 100vh;
+    /* MOTIVOS 
+    background: url(../img/nutricion.jpg);
+    background: url(../img/bannerIndex.jpg);
+    background: url(../img/bannerIndex2.png);
+    */
+    background: url(../img/index.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.banner-txt {
+    margin: 0;
+    color: #fff;
+    display: flex;
+}
+
+.col {
+    padding: 0;
+    margin: 0;
+}
+
+.banner-txt h1 {
+    font-size: 60px;
+    line-height: 140px;
+    margin: 75px 0px 0 75px;
+}
+
+/* POSICIONAMIENTO TXT BANNER */
+
+
+.banner-txt h3 {
+    color: var(--main_color-primary);
+    font-size: 100px;
+}
+
+/* ANIMACION TXT BANNER */
+
+.txtBanner {
+    -webkit-animation: slide-in-left 0.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+    animation: slide-in-left 0.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+}
+
+@keyframes slide-in-left {
+    0% {
+        -webkit-transform: translateX(-1000px);
+        transform: translateX(-1000px);
+        opacity: 0;
+    }
+
+    100% {
+        -webkit-transform: translateX(0);
+        transform: translateX(0);
+        opacity: 1;
+    }
+}
+
+
+/* WEBKIT */
+@-webkit-keyframes slide-in-left {
+    0% {
+        -webkit-transform: translateX(-1000px);
+        transform: translateX(-1000px);
+        opacity: 0;
+    }
+
+    100% {
+        -webkit-transform: translateX(0);
+        transform: translateX(0);
+        opacity: 1;
+    }
+}
+
+/* ANIMACION SPAN */
+
+.spanBanner {
+    -webkit-animation: tracking-in-expand 0.7s cubic-bezier(0.215, 0.610, 0.355, 1.000) both;
+    animation: tracking-in-expand 0.7s cubic-bezier(0.215, 0.610, 0.355, 1.000) both;
+    transition: all 2s;
+}
+
+
+@-webkit-keyframes tracking-in-expand {
+    0% {
+        letter-spacing: -0.5em;
+        opacity: 0;
+    }
+
+    40% {
+        opacity: 0.6;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
+
+@keyframes tracking-in-expand {
+    0% {
+        letter-spacing: -0.5em;
+        opacity: 0;
+    }
+
+    40% {
+        opacity: 0.6;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
+
+/* CARRUSEL */
+h4 {
+    margin-top: 10px;
+}
+
+h4 span {
+    color: var(--main_color-secundary);
+    font-weight: 900;
+
+}
+
+.slider {
+    width: 90vw;
+    height: auto;
+    margin: auto;
+    overflow: hidden;
+}
+
+.slider .slide-track {
+    display: flex;
+    animation: scroll 40s linear infinite;
+    -webkit-animation: scroll 40s linear infinite;
+    width: calc(380px * 20);
+}
+
+.slider .slide {
+    width: 380px;
+}
+
+.slider .slide img {
+    width: 100%;
+}
+
+@keyframes scroll {
+    0% {
+        -webkit-keyframes: translateX(0);
+        transform: translateX(0);
+    }
+
+    100% {
+        -webkit-keyframes: translateX(calc(-380px * 10));
+        transform: translateX(calc(-380px * 10));
+    }
+}
+
+
+/* FOOTER */
+
+.contenedor-footer {
+    display: block;
+}
+
+.redes,
+.copyright {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 5px;
+}

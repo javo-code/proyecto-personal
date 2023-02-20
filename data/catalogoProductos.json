@@ -1,0 +1,56 @@
+[
+    {
+        "id": 13,
+        "nombre": "Nutrilon",
+        "tipo": "alimento",
+        "desc": "pote x 1000 grs.",
+        "precio": 9000,
+        "img": "../assets/img/nutrilon.jpg",
+        "cantidad": 1
+    },
+    {
+        "id": 14,
+        "nombre": "Ensure",
+        "tipo": "alimento",
+        "desc": "pote x 1000 grs.",
+        "precio": 5000,
+        "img": "../assets/img/ensure.jpg",
+        "cantidad": 1
+    },
+    {
+        "id": 15,
+        "nombre": "Lactoproteyn",
+        "tipo": "alimento",
+        "desc": "pote x 1000 grs.",
+        "precio": 7000,
+        "img": "../assets/img/lactoproteyn.jpg",
+        "cantidad": 1
+    },
+    {
+        "id": 16,
+        "nombre": "Alfare",
+        "tipo": "alimento",
+        "desc": "pote x 1000 grs.",
+        "precio": 10000,
+        "img": "../assets/img/alfare.jpg",
+        "cantidad": 1
+    },
+    {
+        "id": 17,
+        "nombre": "Fresubin",
+        "tipo": "alimento",
+        "desc": "pote x 1000 grs.",
+        "precio": 9500,
+        "img": "../assets/img/fresubin.jpg",
+        "cantidad": 1
+    },
+    {
+        "id": 18,
+        "nombre": "Alterna",
+        "tipo": "alimento",
+        "desc": "pote x 1000 grs.",
+        "precio": 9500,
+        "img": "../assets/img/alterna.jpg",
+        "cantidad": 1
+    }
+]

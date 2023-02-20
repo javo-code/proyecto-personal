@@ -1,0 +1,110 @@
+[
+    {
+        "id": 1,
+        "nombre": "Médicos generalista",
+        "tipo": "prestacion",
+        "desc": "Proporciona una mirada integral de la población y de sus problemas de salud.",
+        "precio": 10000,
+        "img": "../assets/img/1.png",
+        "cantidad": 1
+    },
+    {
+        "id": 2,
+        "nombre": "Médicos interconsultores",
+        "tipo": "prestacion",
+        "desc": "Tratamiento del dolor crónico, valoración y el manejo de las diferentes necesidades",
+        "precio": 10000,
+        "img": "../assets/img/2.png",
+        "cantidad": 1
+    },
+    {
+        "id": 3,
+        "nombre": "Enfermería general",
+        "tipo": "prestacion",
+        "desc": "Promover la salud, prevenir la enfermedad, restaurar la salud y aliviar el sufrimiento.",
+        "precio": 10000,
+        "img": "../assets/img/3.png",
+        "cantidad": 1
+    },
+    {
+        "id": 4,
+        "nombre": "Psicología",
+        "tipo": "prestacion",
+        "desc": "Ayuda a enfrentar situaciones estresantes y a eliminar los obstáculos que nos impiden alcanzar nuestros objetivos.",
+        "precio": 10000,
+        "img": "../assets/img/4.png",
+        "cantidad": 1
+    },
+    {
+        "id": 5,
+        "nombre": "Kinesiología",
+        "tipo": "prestacion",
+        "desc": "Prevención, conservación, evaluación, tratamiento y recuperación somatofuncional de las personas.",
+        "precio": 10000,
+        "img": "../assets/img/5.png",
+        "cantidad": 1
+    },
+    {
+        "id": 6,
+        "nombre": "Estimulación temprana",
+        "tipo": "prestacion",
+        "desc": "Optimiza el desarrollo normal del niño; prevenir la aparición de déficit asociados a un riesgo biológico, psicológico o social.",
+        "precio": 10000,
+        "img": "../assets/img/6.png",
+        "cantidad": 1
+    },
+    {
+        "id": 7,
+        "nombre": "Psicomotrcista",
+        "tipo": "prestacion",
+        "desc": "Estimula la percepción del entorno, fomenta el aprendizaje y la concentración, fortalece la autoestima infantil.",
+        "precio": 10000,
+        "img": "../assets/img/7.png",
+        "cantidad": 1
+    },
+    {
+        "id": 8,
+        "nombre": "Fonoaudiología",
+        "tipo": "prestacion",
+        "desc": "Establece o reestablece las habilidades y funciones de la comunicación humana. ",
+        "precio": 10000,
+        "img": "../assets/img/8.png",
+        "cantidad": 1
+    },
+    {
+        "id": 9,
+        "nombre": "Terapia ocupacional",
+        "tipo": "prestacion",
+        "desc": "Prevención de discapacidades y disfunciones ocupacionales, mejora de la capacidad física e intelectual de los pacientes.",
+        "precio": 10000,
+        "img": "../assets/img/9.png",
+        "cantidad": 1
+    },
+    {
+        "id": 10,
+        "nombre": "Nutrición",
+        "tipo": "prestacion",
+        "desc": "Un nutricionista te ayuda a conocer cuál es tu necesidad calórica y te enseña cómo lograr un aporte suficiente de vitaminas y minerales.",
+        "precio": 10000,
+        "img": "../assets/img/10.png",
+        "cantidad": 1
+    },
+    {
+        "id": 11,
+        "nombre": "Asistente social",
+        "tipo": "prestacion",
+        "desc": "El asistente social se encarga de garantizar los derechos humanos y de fomentar la inclusión social.",
+        "precio": 10000,
+        "img": "../assets/img/11.png",
+        "cantidad": 1
+    },
+    {
+        "id": 12,
+        "nombre": "Acompañante terapéutico",
+        "tipo": "prestacion",
+        "desc": "Favorecer el desarrollo biopsicosocial y/o autovalimiento de la persona asistida.Fortalecer los vínculos familiares y sociales;.",
+        "precio": 10000,
+        "img": "../assets/img/12.png",
+        "cantidad": 1
+    }
+]

@@ -1,0 +1,22 @@
+[
+    {
+        "fecha": "15/01/2023",
+        "idMed": "Dra. Alguien",
+        "Informe": "Evolucion de prueba1"
+    },
+    {
+        "fecha": "28/01/2023",
+        "idMed": "Dra. Alguien",
+        "Informe": "Evolucion de prueba2"
+    },
+    {
+        "fecha": "04/02/2023",
+        "idMed": "Dra. Alguien",
+        "Informe": "Evolucion de prueba3"
+    },
+    {
+        "fecha": "08/02/2023",
+        "idMed": "Dra. Alguien",
+        "Informe": "Evolucion de prueba4"
+    }
+]
